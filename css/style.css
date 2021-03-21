@@ -2515,4 +2515,12 @@ span.email-notes {
     font-size: 13px;
     line-height: 20px;
   }
+  .main-menu ul.navbar-nav li, .stick .main-menu ul.navbar-nav li {
+    display: flex !important;
+    justify-content: center;
+  }
+  .main-menu ul.navbar-nav li button {
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
 }
