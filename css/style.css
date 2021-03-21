@@ -109,9 +109,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #444;
   font-weight: 500;
 }
-.dark h1, h2, h3, h4, h5, h6 {
-  color: var(--text);
-}
 h1 {
   font-size: 48px;
   line-height: 50px;
@@ -2429,7 +2426,10 @@ span.email-notes {
 .dark .about-area {
   background-color: var(--back);
 } 
-.dark .section-headline h2,.dark .single-well p,.single-well ul li {
+.dark .section-headline h2,.dark .single-well p {
+  color: var(--text);
+}
+.dark .single-well ul li {
   color: var(--text);
 }
 .dark .section-headline h2::after {
@@ -2439,7 +2439,10 @@ span.email-notes {
     color: var(--text) !important;
     background-color: var(--back);
 }
-.dark .event-content.head-team h4,.event-content p {
+.dark .event-content.head-team h4 {
+  color : var(--text) ;
+}
+.dark .event-content p {
   color : var(--text) ;
 }
 .dark .team-content>h4, .team-content>p {
@@ -2467,14 +2470,28 @@ span.email-notes {
 .dark .single-icon p {
   color :var(--text) ;
 }
-.dark .footer-area,.footer-area-bottom {
+.dark .footer-area {
   background-color: var(--back);
 }
-.dark .footer-head p,.footer-head h4,.footer-head ul li a,.copyright>p,.credits {
+.dark .footer-area-bottom {
+  background-color: var(--back);
+}
+.dark .footer-head p  {
   color :var(--text) ;
 }
-.footer-icons ul li a {
-  border: 1px solid var(--text) ;
+.dark .footer-head h4 {
+  color :var(--text) ;
+}
+.dark .footer-head ul li a {
+  color :var(--text) ;
+}
+.dark .copyright>p {
+  color :var(--text) ;
+}
+.dark .credits {
+  color :var(--text) ;
+}
+.dark .footer-icons ul li a {
   color: var(--text) ;
 }
 .dark .footer-area-bottom{
